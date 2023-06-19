@@ -2,7 +2,7 @@
   "name": "grammar-gpt",
   "displayName": "grammar-gpt",
   "description": "fix typos and grammar errors with chatgpt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/lyra95/vscode-grammar-gpt.git",
     "type": "git"
