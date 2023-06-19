@@ -8,7 +8,7 @@
 
 ## TODO
 
-- [ ] use small enough language model that can be run on local, so that make this extension completely free.
+- [ ] Use a small enough language model that can be run locally, so that this extension is completely free.
 - [ ] Rephrase selected text
 - [ ] Next sentence suggestion
 
@@ -33,7 +33,7 @@ Initial release
 
 ### 0.0.2
 
- - fixed the bug that extension couldn't read api key from configuration
+ - Fixed the bug that the extension couldn't read the API key from the configuration.
 
 ## Following extension guidelines
 
