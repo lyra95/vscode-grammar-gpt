@@ -27,9 +27,13 @@ No requirements so far.
 
 ## Release Notes
 
-### 0.1.0
+### 0.0.1
 
 Initial release
+
+### 0.0.2
+
+ - fixed the bug that extension couldn't read api key from configuration
 
 ## Following extension guidelines
 

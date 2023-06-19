@@ -6,7 +6,7 @@ import * as openai from 'openai';
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-	const config = vscode.workspace.getConfiguration('grammar-gpt.OpenAI.APIKey');
+	const config = vscode.workspace.getConfiguration('grammar-gpt.OpenAI');
 	const apiKey= config.get('APIKey') as string;
 	const openaiApi = new openai.OpenAIApi(new openai.Configuration({apiKey: apiKey}));
 	// todo: apiKey가 맞는지 확인하고 실패하면 우 아래에 팝업 뜨게 하기
