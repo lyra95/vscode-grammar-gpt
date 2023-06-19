@@ -1,0 +1,2 @@
+for dev and debug: npm install -g yo generator-code
+for publishing and packaging: npm install -g vsce
